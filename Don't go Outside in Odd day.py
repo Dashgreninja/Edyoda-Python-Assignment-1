@@ -1,4 +1,11 @@
-numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+numbers=[]
+while True:
+    elements=(input("Enter no. or Enter 'q' to quit : "))
+    if elements=='q':
+        break
+    else:
+        numbers.append(int(elements))
+    
 even=0
 odd=0
 for i in numbers:
@@ -8,4 +15,3 @@ for i in numbers:
         odd+=1
 print('Number of even numbers : ',even)
 print('Number of odd numbers : ',odd)
-        
