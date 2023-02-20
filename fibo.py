@@ -1,9 +1,10 @@
-x=0
-y=1
-while x<50:
-    if x>0 :
-        print(x,end=' ')
-    z=x+y
-    x=y
-    y=z
-    
+start=int(input('Enter The start of Fibonacci Series :'))
+stop=int(input('Enter The End of Fibonacci Series :'))
+num1=0
+num2=1
+while num1<=stop:
+    if num1>=start :
+        print(num1,end=' ')
+    num3=num1+num2
+    num1=num2
+    num2=num3
