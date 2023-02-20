@@ -1,5 +1,5 @@
 text=input('Enter Text :- ')
-empty=''
+newstr=''
 for i in text:
-    empty= i + empty
-print(empty)
+    newstr= i + newstr
+print(newstr)
